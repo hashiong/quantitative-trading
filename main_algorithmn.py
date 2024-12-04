@@ -16,7 +16,7 @@ SPY_TICKER = "SPY"  # IShares Core S&P 500 ETF
 QQQ_TICKER = "QQQ"  # IShares Core QQQ ETF
 
 # Define the date range for fetching data
-END_DATE = datetime.now().date()
+END_DATE = datetime(2024, 12, 3)  # Set the desired end date
 START_DATE = END_DATE - timedelta(days=2 * 365)  # Two years of data
 
 # Output folder for stock data
